@@ -11,4 +11,5 @@
     <string name="tab_item_ideas">Ideas</string>
     <string name="tab_item_todo">TODO</string>
     <string name="tab_item_birthdays">Birthdays</string>
+    <string name="appbar_scrolling_view_behavior">Hello world!!!</string>
 </resources>
