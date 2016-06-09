@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
-    private TabLayout tabLayout;
     private ViewPager viewPager;
 
     @Override
@@ -49,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void inittabs() {
         viewPager = (ViewPager)findViewById(R.id.viewPager);
-        tabLayout = (TabLayout)findViewById(R.id.tablayout);
+        TabLayout tabLayout = (TabLayout)findViewById(R.id.tablayout);
         TabsPagerFragmentAdapter adapter = new TabsPagerFragmentAdapter(getSupportFragmentManager());
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
